@@ -1,0 +1,31 @@
+type: object
+properties:
+  minUpBandwidthKbps:
+    type: number
+    format: double
+  minDnBandwidthKbps:
+    type: number
+    format: double
+  maxLatencyMs:
+    type: integer
+  maxJitterKbps:
+    type: number
+    format: double
+  maxJitterMs:
+    type: integer
+  avgLatencyMs:
+    type: integer
+  avgUpBandwidthKbps:
+    type: number
+    format: double
+  avgDnBandwidthKbps:
+    type: number
+    format: double
+  rsrp:
+    type: number
+    format: double
+  rsrq:
+    type: number
+    format: double
+  cellCongestion:
+    type: integer

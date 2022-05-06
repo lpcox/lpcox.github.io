@@ -1,0 +1,16 @@
+type: object
+properties:
+  lat:
+    type: number
+    format: double
+  lon:
+    type: number
+    format: double
+  region:
+    type: string
+  city:
+    type: string
+  state:
+    type: string
+  country:
+    type: string

@@ -1,0 +1,15 @@
+put:
+  description: Returns all MECs accessible under the session credentials.
+  requestBody:
+    description: A valid session token
+    content:
+      application/json:
+        schema:
+          $ref: ../components/schemas/SessionToken.yaml
+  responses:
+    '201':
+      description: MECs accessible under the session credentials.
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/ObjectList.yaml

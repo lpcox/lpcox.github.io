@@ -1,0 +1,11 @@
+type: object
+required:
+  - network
+  - objects
+properties:
+  network:
+    $ref: ./NetworkPath.yaml
+  objects:
+    type: array
+    items:
+      type: string

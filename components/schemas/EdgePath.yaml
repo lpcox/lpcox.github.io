@@ -1,0 +1,4 @@
+type: string
+pattern: '^\/net\/[a-z0-9-]+\/edge\/[a-zA-Z0-9-]+$'
+description: Path representing an edge server (MEC) under a particular network
+example: /net/att/edge/ANEAtlanta

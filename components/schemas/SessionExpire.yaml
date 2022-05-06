@@ -1,0 +1,7 @@
+type: object
+properties:
+  token:
+    $ref: ./SessionToken.yaml
+  ttl:
+    type: integer
+    minimum: 0

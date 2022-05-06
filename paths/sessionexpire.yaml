@@ -1,0 +1,15 @@
+put:
+  description: Update a session ttl.
+  requestBody:
+    description: 'Session token and the new ttl, which could be zero.'
+    content:
+      application/json:
+        schema:
+          $ref: ../components/schemas/SessionExpire.yaml
+  responses:
+    '201':
+      description: Session TTL successfully updated.
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/SessionToken.yaml

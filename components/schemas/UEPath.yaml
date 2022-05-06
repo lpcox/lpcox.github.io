@@ -1,0 +1,7 @@
+type: string
+pattern: >-
+  ^\/net\/[a-z0-9-]+\/ue\/((imei\/[0-9]{15})|(imsi\/[0-9]{14,15})|(tn\/\+[1-9]{1}[0-9]{1,14})|(ipv4\/([01]?\d\d?|2[0-4]\d|25[0-5])(?:\.(?:[01]?\d\d?|2[0-4]\d|25[0-5])){3}(\/([0-9]|[1-2][0-9]|3[0-2]))?(\:[0-9]{1,5})?)|(ipv6\/(?:[A-F0-9]{1,4}:){7}[A-F0-9]{1,4})(\:[0-9]{1,5})?){1}$
+description: >-
+  Path representing UE under a particular work by imei number, imsi number,
+  international telephone number, ipv4 address, or ipv6 address.
+example: /net/att/ue/ipv4/174.204.72.203

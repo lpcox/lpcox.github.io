@@ -1,0 +1,5 @@
+type: object
+properties:
+  channel:
+    type: string
+    example: e22fceb1d3af05ce

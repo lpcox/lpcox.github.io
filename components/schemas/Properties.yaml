@@ -1,0 +1,14 @@
+type: object
+properties:
+  ueName:
+    $ref: ./UEPath.yaml
+  edgeName:
+    $ref: ./EdgePath.yaml
+  ueLocation:
+    $ref: ./Location.yaml
+  edgeLocation:
+    $ref: ./Location.yaml
+  networkProperties:
+    $ref: ./NetworkProperties.yaml
+  computeProperties:
+    $ref: ./ComputeProperties.yaml

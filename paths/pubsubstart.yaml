@@ -1,0 +1,14 @@
+put:
+  description: Returns a pubsub channel for monitoring network properties.
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: ../components/schemas/PubSubStart.yaml
+  responses:
+    '201':
+      description: A pubsub channel for monitoring network propertiesr.
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/PubSubChannel.yaml

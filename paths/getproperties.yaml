@@ -1,0 +1,14 @@
+put:
+  description: Returns properties an edge/UE or an edge/UE pair.
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: ../components/schemas/GetProperties.yaml
+  responses:
+    '201':
+      description: Properties an edge/UE or an edge/UE pair.
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/Properties.yaml

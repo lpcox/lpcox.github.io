@@ -1,0 +1,12 @@
+type: object
+properties:
+  credentials:
+    $ref: ./CredentialsList.yaml
+  secret:
+    type: string
+    format: base64
+    example: gmnq/OYn5xAM6HptJ6UX6Q==
+  ttl:
+    type: integer
+    minimum: 1
+    example: 300

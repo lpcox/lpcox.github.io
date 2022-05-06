@@ -1,0 +1,6 @@
+type: object
+properties:
+  token:
+    type: string
+    format: base64
+    example: zo0ovQPu/fE6UKvEfs06OTLRSynFcac4dhf+CPRabMc=

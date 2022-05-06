@@ -1,0 +1,10 @@
+type: object
+properties:
+  numNodes:
+    type: integer
+  nodeCPUs:
+    type: integer
+  nodeGPUs:
+    type: integer
+  nodeMemoryGB:
+    type: integer

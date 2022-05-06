@@ -1,0 +1,18 @@
+post:
+  description: >-
+    Create a new API Gateway session. Returns a session token that can be used
+    in subsequent requests under the session.
+  requestBody:
+    description: 'A credentials blob, secret string, and ttl.'
+    content:
+      application/json:
+        schema:
+          $ref: ../components/schemas/SessionStart.yaml
+    required: true
+  responses:
+    '201':
+      description: Session created
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/SessionToken.yaml
